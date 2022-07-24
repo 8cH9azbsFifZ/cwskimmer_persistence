@@ -11,6 +11,7 @@ _port=os.getenv('DB_PORT')
 _user=os.getenv('DB_USER')
 _password=os.getenv('DB_PASS')
 _dbname=os.getenv('DB_NAME')
+print ("Connecting to DB: " + _hostname + " " + _port)
 
 # Telnet Interface Configuration
 HOST = os.getenv('SKIMMER_HOST')
@@ -18,6 +19,7 @@ PORT = os.getenv('SKIMMER_PORT')
 user = os.getenv('SKIMMER_USER')
 passw = os.getenv('SKIMMER_PASS')
 timeout = 120 # seconds
+print ("Connecting to telnet: " + HOST + " " + PORT)
 tn = telnetlib.Telnet(HOST, port=PORT)
 
 
