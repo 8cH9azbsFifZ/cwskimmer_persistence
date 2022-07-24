@@ -5,13 +5,13 @@ services:
     image: ghcr.io/8ch9azbsfifz/cwskimmer_persistence:latest
     restart: always
     environment:
-      ENV DB_HOST: "localhost"
-      ENV DB_PORT: "27017"
-      ENV DB_USER: "root"
-      ENV DB_PASS: "secure"
-      ENV DB_NAME: "cwskimmer"
+      DB_HOST: "localhost"
+      DB_PORT: "27017"
+      DB_USER: "root"
+      DB_PASS: "secure"
+      DB_NAME: "cwskimmer"
 
-      ENV SKIMMER_HOST: "localhost"
-      ENV SKIMMER_PORT: "7301"
-      ENV SKIMMER_USER: "DB2CW"
-      ENV SKIMMER_PASS: ""
+      SKIMMER_HOST: "localhost"
+      SKIMMER_PORT: "7301"
+      SKIMMER_USER: "DB2CW"
+      SKIMMER_PASS: ""
