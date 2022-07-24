@@ -1,8 +1,8 @@
 version: '3.1'
 
 services:
-  mongo:
-    image: mongo
+  cwskimmer_persistence:
+    image: ghcr.io/8ch9azbsfifz/cwskimmer_persistence:latest
     restart: always
     environment:
       ENV DB_HOST: "localhost"
