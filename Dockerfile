@@ -1,4 +1,5 @@
-FROM python:3.10-alpine
+FROM python:3.10-alpine 
+# Must be less than 3.11, due to telnetlib deprecation
 
 WORKDIR /app
 ADD ./requirements.txt /app/
