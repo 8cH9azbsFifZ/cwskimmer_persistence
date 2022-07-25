@@ -9,3 +9,6 @@ Connects to the telnet client of CW SKIMMER and writes to CW SPOTS to a mongodb.
 
 # Running
 - `docker-compose up -d`
+
+# References
+- Can be used in conjunction with: https://github.com/8cH9azbsFifZ/docker-cwskimmer
